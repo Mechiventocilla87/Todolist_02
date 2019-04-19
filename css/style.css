@@ -119,7 +119,9 @@ body{
 }
 
 .input_todo:focus{
-    border: 2px solid #32312A;
+    border-bottom: 2px solid #32312A;
+    border-top: 2px solid #32312A;
+    border-left: 2px solid #32312A;
     height: 26px;
     outline: none;
 }
