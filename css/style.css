@@ -30,7 +30,7 @@ body{
 }
 
 .wind {
-    margin: auto;
+    margin: auto 0px 10px;
     position: absolute;
     top: 24%;
     left: 10%;
