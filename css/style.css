@@ -122,6 +122,7 @@ body{
     border-bottom: 2px solid #32312A;
     border-top: 2px solid #32312A;
     border-left: 2px solid #32312A;
+    border-right: none;
     height: 26px;
     outline: none;
 }
