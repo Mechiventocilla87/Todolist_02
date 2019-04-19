@@ -1,0 +1,335 @@
+
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
+
+body{
+    margin:0;
+}
+#grafica {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFDF0;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    background-image: url('../svg/back.svg');
+    background-size:  12px 12px;
+}
+
+.numered{
+    position:absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 80px;
+    top: 4%;
+}
+
+.wind {
+    margin: auto;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    width: 76%;
+    border: 3px solid #32312A;
+    -webkit-box-shadow: 10px 10px 0px -1px rgba(253, 183, 34, 0.51);
+    -moz-box-shadow: 10px 10px 0px -1px rgba(253, 183, 34, 0.51);
+    box-shadow: 10px 10px 0px -1px #32312A;
+    background-color: #FFFDF0;
+    border-radius:15px;
+}
+
+.head {
+    height: 40px;
+    text-align: center;
+    border-bottom: 3px solid #32312A;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.title {
+    margin: 0px;
+    color:#32312A;
+    font-size: 16px;
+    margin-left: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 39px;
+    font-weight: 700;
+
+}
+
+.btn_delete{
+    width: 50px;
+    border-left: 2px solid #32312A;
+}
+
+.btn_delete h1{
+    margin: 0px;
+    font-weight: 300;
+    color: #32312A;
+    line-height: 36px;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.nro{
+    margin: 0px;
+    font-weight: 700;
+    color: #32312A;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow:6px 6px 0px rgba(247, 179, 76, 0.51);
+}
+
+.to_do .load{
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #32312A;
+   font-size: 18px;
+   height: 25px; 
+   margin: 0px 0px 8px 0px;
+}
+
+.to_do .input_todo{
+    background: repeating-linear-gradient(
+        -55deg,
+        #FFE1AD,
+        #FFE1AD 3px,
+        #fffdf9 3px,
+        #fffdf9 8px
+      );
+    border: none;
+    color: #32312A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding-left: 5px;
+    height: 26px;
+    font-weight: 600;
+    border-top-left-radius: 6px;
+    margin-right: -5px;
+    border-bottom-left-radius: 6px;
+    width: 64%;
+    box-sizing: border-box;
+    
+}
+
+.input_todo:focus{
+    border: 2px solid #32312A;
+    height: 26px;
+    outline: none;
+}
+
+.to_do .btn_input{
+   border-top: 1.8px solid #32312A;
+   border-right: 1.8px solid #32312A;
+   border-bottom: 1.8px solid #32312A;
+   border-left: 1.8px solid #32312A;
+   font-family: 'Poppins', sans-serif;
+   background-color: transparent;
+   font-weight: 600;
+   color: #32312A;
+   font-size: 12px;
+   height: 26px;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   box-sizing: border-box;
+}
+
+.to_do .btn_input:hover{
+    box-shadow: 4px 4px 0px -1px #FFE1AD;
+    background-color: #32312A;
+    color: #FFFDF0;
+}
+
+.box_principal{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.row_draw{
+    width: 100%;
+    background-image: url('../svg/draw_task-01.svg');
+    height: 90px;
+    background-repeat: no-repeat;
+}
+
+.paragraph{
+    font-size: 11px;
+    font-family:  'Poppins', sans-serif;
+    font-style: italic;
+    margin:0px 0px 11px 0px;
+}
+
+.ul_add{
+    padding-left: 18px;
+}
+
+.li_add{
+  font-family:  'Poppins', sans-serif;
+  color: #32312A;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.li_add span{
+    margin-right: 5px;
+}
+
+.li_add .guardar, .editar, .borrar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    background-color: #F7B34C;
+    border-radius: 5px;
+    border: none;
+    color: #FFFDF0;
+    margin-right:4px;
+    padding: 3px 10px;
+}
+
+.elInput{
+  border: 1px solid #F7B34C;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  width: 122px;
+  padding-left: 3px;
+  margin-right: 7px;
+}
+
+.hr_add{
+    border: 0; 
+    border-top: 1px solid #32312A;
+}
+
+.box_counter{
+  width: 85%;
+  margin: auto;
+}
+
+.finalizadas, .totales{
+   font-display:'Poppins', sans-serif;
+   font-size: 13px; 
+   color: #32312A;
+   font-weight: 400;
+}
+
+
+@media screen and (min-width: 740px) {
+    #grafica {
+        width:100%;
+    }
+    .wind{
+        top: 15%;
+        left: 11%;
+    }
+
+    .box_principal{
+        margin: 28px auto;
+    }
+
+    .row_draw{
+        height: 200px;
+    }
+    .to_do .input_todo{
+        width: 80%;
+        height: 32px;
+        font-size: 17px;
+        margin-top: 2px;
+    }
+    .to_do .btn_input{
+        height: 32px;
+        width: 20%;
+        font-size: 17px;
+    }
+    .li_add, .elInput{
+        font-size: 19px;
+    }
+    .li_add .guardar, .editar, .borrar{
+     font-size: 17px;
+    }
+    .box_counter{
+        width: 93%;
+    }
+    .finalizadas, .totales{
+        font-size: 17px;
+    }
+    .paragraph{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .numered{
+        font-size: 100px;
+        left: 10%;
+    }
+
+    .wind{
+        width: 50%;
+        left: 20%;
+    }
+
+    .box_principal{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .first_row{
+        width: 36%;
+    }
+
+    .row_draw{
+        height: 80px;
+    }
+
+    .to_do{
+        width: 60%;
+    }
+    
+    .to_do .btn_input{
+        font-size: 13px;
+        width: 30%;
+    }
+    .to_do .input_todo{
+        font-size: 13px;
+        width: 70%;
+    }
+    .li_add{
+        font-size: 14px;
+        
+    }
+    .elInput{
+        font-size: 14px;
+    }
+    .li_add .guardar, .editar, .borrar{
+        font-size: 14px;
+    }
+    .box_counter{
+        width: 85%;
+    }
+    .finalizadas, .totales{
+        font-size: 15px;
+    }
+    .paragraph{
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .wind {
+        margin: auto;
+        position: absolute;
+        top: 24%;
+        left: 25%;
+    }
+}
+
+@media screen and (min-width: 1580px) {
+   
+}
