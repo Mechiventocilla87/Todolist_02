@@ -132,6 +132,7 @@ body{
 .input_todo:-ms-input-placeholder {
    font-size: 11px;
    font-weight:400;
+   color: red;
 }
 
 .to_do .btn_input{
