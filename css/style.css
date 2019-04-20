@@ -127,6 +127,10 @@ body{
     outline: none;
 }
 
+.input_todo:placeholder{
+    font-size: 11px;
+    font-weight:400;
+}
 .to_do .btn_input{
    border-top: 1.8px solid #32312A;
    border-right: 1.8px solid #32312A;
