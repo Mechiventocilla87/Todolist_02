@@ -127,9 +127,7 @@ body{
     outline: none;
 }
 
-.input_todo::-webkit-input-placeholder,
-.input_todo::-moz-placeholder,
-.input_todo:-ms-input-placeholder {
+.input_todo::placeholder{
    font-size: 11px;
    font-weight:400;
 }
@@ -271,6 +269,9 @@ body{
     .paragraph{
         font-size: 13px;
     }
+    .input_todo::placeholder{
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -328,6 +329,9 @@ body{
     }
     .paragraph{
         font-size: 11px;
+    }
+    .input_todo::placeholder{
+        font-size: 12px;
     }
 }
 
