@@ -3,9 +3,9 @@ function addTask(){
     var valorInput = $('#input_text').val();
     var span = '<span>'+valorInput +'</span> <br> ';
     var input = '<input class="elInput hidden" type="text">';
-    var btnGuardar= "<button class='guardar hidden'>Save</button>";
-    var btnEditar = "<button class='editar'>Edit</button>";
-    var btnBorrar = "<button class='borrar'>Trash</button>";
+    var btnGuardar= "<button class='guardar hidden button_style'>Save</button>";
+    var btnEditar = "<button class='editar button_style'>Edit</button>";
+    var btnBorrar = "<button class='borrar button_style'>Trash</button>";
 
     if (valorInput != '') {
     ul.append('<li class="li_add">'+span+input+btnGuardar+btnEditar+btnBorrar+'<hr class="hr_add"></li>');
